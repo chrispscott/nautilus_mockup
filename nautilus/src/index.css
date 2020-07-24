@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+
+
+.container-prime{
+  background-color: white;
+}
+
+
 .container{
   display: grid;
   grid-template-areas: 
@@ -41,4 +48,5 @@ code {
   color:white;
   grid-area: footer4;
   text-align: left;
+  padding-left: 60px;
 }
