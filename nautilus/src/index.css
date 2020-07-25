@@ -16,7 +16,28 @@ code {
 
 .container-prime{
   background-color: white;
+  padding: 10px 20px 20px 20px;
 }
+
+.content-area{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+.header{
+  grid-area: 1 / 2 / span1 / span2;
+}
+.image-box img{
+  grid-area: 2 / 2 / span1 / span2;
+}
+.story-list{
+  grid-area: 2 / 1 / span1 / span2;
+}
+
+
+
+
+
 
 
 .container{

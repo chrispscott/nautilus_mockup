@@ -1,4 +1,5 @@
 import React from 'react';
+import HP_PRIME from '../assets/hp_prime.jpg';
 
 class Prime extends React.Component {
     render() {
@@ -6,12 +7,12 @@ class Prime extends React.Component {
             <div className='container-prime'>
                 <section className='content-area'>
                     <section className='header'>
-                        <h1 className=''>Nautilus Prime</h1>
+                        <h1 className='title1'>Nautilus Prime</h1>
                         <h5>GET THE FULL NAUTILUS DIGITAL EXPERIENCE.</h5>
                         <button className='signup'> MEMBERS SIGN IN </button>
                     </section>
                     <section className='image-box'>
-                        <img src='##' alt=' image'></img>
+                        <img src={HP_PRIME} alt=' image'></img>
                     </section>
                     <section className='story-list'>
                         <h4>Like Nautilus? You'll love Nautilus Prime</h4>
